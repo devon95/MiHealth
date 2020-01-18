@@ -1,1 +1,85 @@
+.red {
+    color: #ed0a02;
+}
+.green {
+    color: #1da802;
+    font-family: "Arial Black";
+    margin-left: 30px;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li:not(.logo){
+    margin: 10px;
+}
+.logo {
+    flex-grow: 2;
+}
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.black {
+    color: black;
+    font-family: "Arial Black";
+    text-decoration: none;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/squared_metal.png");
+}
+.img {
+    height: 300px;
+    width: 250px;
+    margin: 30px 30px;
+}
+.breakfast {
+    background-image: url("images/breakfast.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.lunch {
+    background-image: url("images/lunch.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.dinner {
+    background-image: url("images/dinner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.health {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+h3 {
+    font-size: 40px;
+    margin: 0;
+}
+.top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: white;
+    background-size: auto;
+    margin: 0;
+    margin-top: 275px;
 
+}
+.bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    background-color: #1da802;
+    background-position: 5px;
+}
